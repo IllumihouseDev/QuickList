@@ -1,16 +1,71 @@
 import React from 'react';
-
-
-const  HomePage: React.FC = () => {
+import '/styles.css';
+const  SignUp: React.FC = () => {
   return (
     <div>
        {/* Content specific to the home page */}
        <div>
         <h1>Welcome to QuickLists</h1>
-        {/* Add more content as needed */}
+        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-grey p-8 rounded-md shadow-md w-96">
+        <h2 className="text-2xl font-bold mb-4">Sign up</h2>
+        <form>
+          <div className="mb-4">
+            <label htmlFor="username" className="block text-sm font-medium text-gray-600">
+              Enter your Name
+            </label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="password" className="block text-sm font-medium text-gray-600">
+              Enter your email
+            </label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="username" className="block text-sm font-medium text-gray-600">
+              Create Username
+            </label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="username" className="block text-sm font-medium text-gray-600">
+              Create Password
+            </label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <button
+            type="submit"
+            className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
       </div>
     </div>
   );
 };
 
-export default HomePage;
+export default SignUp;
