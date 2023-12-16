@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src/pages/index.tsx",
     "lib": [
       "dom",
       "dom.iterable",
