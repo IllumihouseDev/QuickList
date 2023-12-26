@@ -9,7 +9,7 @@ const  Login: React.FC = () => {
         <h1>Welcome to QuickLists</h1>
         <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-grey p-8 rounded-md shadow-md w-96">
-        <h2 className="text-2xl font-bold mb-4">Login</h2>
+        <h2 className="text-2xl font-bold mb-4">QuickLists Login</h2>
         <form>
           <div className="mb-4">
             <label htmlFor="username" className="block text-sm font-medium text-gray-600">

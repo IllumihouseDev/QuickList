@@ -1,5 +1,6 @@
 import React from "react";
 import "/styles.css";
+import Image from "next/image";
 
 import {
   DATABASE_HOST,
@@ -15,9 +16,9 @@ const SignUp: React.FC = () => {
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       {/*Logon will be placed here */}
       <div>
-        <h1 className="text-4xl font-bold mb-4" >Welcome to QuickLists</h1>
         <div className="text-center">
-        <img src="/assets.ts/QLLogo.png" alt="Logo" className="mb-4" width="150" height="150"/>
+        <Image src="/Images/QLLogo.png" alt="QL Logo" width={200} height={100} />
+        <h1 className="text-4xl font-bold mb-4" >Welcome to QuickLists</h1>
       {/*Sign-up form below */}
       </div>
         <div className="flex items-center justify-center min-h-screen bg-gray-100">
